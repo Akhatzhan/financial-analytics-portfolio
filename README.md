@@ -82,3 +82,29 @@ Python, pandas, matplotlib, seaborn, Kaggle Notebook
 
 ### Files
 - `notebook79aa1990c4.ipynb` — full RFM analysis
+
+## Project 4: Accounts Receivable (AR) Analysis — Based on OneVision Experience
+
+### Problem
+Analyze outstanding debts across 100 companies to identify collection risks and prioritize follow-ups.
+
+### Background
+Based on real-world experience as Financial Analyst at OneVision (Kazakhstan), where tracking payments across hundreds of companies was a core responsibility.
+
+### Approach
+- Generated realistic AR dataset (100 companies, 5 industries)
+- Calculated Outstanding Balance, Collection Rate per company
+- Aging Analysis: grouped debts by 0-30, 31-60, 61-90, 90+ days
+- Identified Top 10 highest-risk debtors
+
+### Key Findings
+- 60 out of 100 companies in 90+ days bucket — $2.5M at risk
+- Manufacturing has lowest collection rate (43%) — highest priority for follow-up
+- Finance sector leads collection rate (59%) — most reliable payers
+- Top debtor (Company_49): $138,492 outstanding, 104 days overdue
+
+### Tools
+Python, pandas, matplotlib, Kaggle Notebook
+
+### Files
+- `notebookf49e8e62de.ipynb` — full AR analysis

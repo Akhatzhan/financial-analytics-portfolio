@@ -54,3 +54,31 @@ Python, pandas, matplotlib, seaborn, yfinance, Power BI Desktop
 - `notebookca0e7e5503.ipynb` — Python analysis
 - `investment_portfolio_dashboard.pbix` — Power BI dashboard
 - `Снимок экрана 2026-07-09 131800.png` — dashboard screenshot
+
+## Project 3: Customer Segmentation — RFM Analysis
+
+### Problem
+Segment 4,338 customers of a UK retail company to identify high-value and at-risk groups.
+
+### Data
+- Source: Online Retail Dataset (Kaggle, UCI)
+- 541,909 transactions → 397,884 after cleaning
+- Period: 2010–2011, UK-based retailer
+
+### Approach
+- Cleaned data: removed nulls, negative quantities, zero prices
+- Calculated RFM metrics per customer (Recency, Frequency, Monetary)
+- Scored and segmented into 4 groups: Champions, Loyal, Recent, At Risk
+- Built 4 visualizations
+
+### Key Findings
+- Champions (1,523 customers) generate avg £4,300 revenue — 10x more than At Risk
+- At Risk segment (1,504 customers) hasn't purchased in avg 185 days
+- Champions buy avg 8.6x vs At Risk 1.3x — frequency is the key differentiator
+- Priority action: retention campaign for At Risk, upsell for Loyal Customers
+
+### Tools
+Python, pandas, matplotlib, seaborn, Kaggle Notebook
+
+### Files
+- `notebook79aa1990c4.ipynb` — full RFM analysis
